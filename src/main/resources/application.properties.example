@@ -1,0 +1,7 @@
+spring.application.name=gestion-tareas
+# Configuración de la conexión a MongoDB
+spring.data.mongodb.uri=mongodb://localhost:27017/gestion_tareas_db
+# Configuración general de Spring Boot
+server.port=8083
+
+spring.mvc.pathmatch.matching-strategy=ant_path_matcher
